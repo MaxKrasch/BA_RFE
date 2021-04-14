@@ -6,10 +6,10 @@ Only the paths need to be adjusted based on the local file system of the used co
 Requirements are an Python 3 environment with the packages: 
 - Tensorflow 2 (pip install)
 - gym          (pip install)
-- pybullet
+- pybullet     (pip install)
 - pybullet-gym (clone from github repositoryhttps://github.com/benelot/pybullet-gym.git)
-- numpy
-- os
+- numpy        (pip install)
+- os           (pip install)
 
 By setting the train variable in the main to True or False, models can be trained or tested.
 For using OpenAI-gym environments line 104 (action = action[0]) in main.py needs to be commented out.
